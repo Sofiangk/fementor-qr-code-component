@@ -1,0 +1,63 @@
+.attribution { 
+    font-size: 11px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: hsl(218, 44%, 22%);
+    color: hsl(0, 0%, 100%);
+    padding: 5px 0;
+}
+
+.attribution a { 
+    color: hsl(228, 100%, 70%); 
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 280px;
+    box-shadow: hsl(218, 44%, 22%) 0px 15px 65px -35px;  
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-family: 'Outfit', sans-serif;
+    min-width: 375px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 15px;
+    padding: 0px;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+}
+
+.txt {
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
